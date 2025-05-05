@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--The type of font we are using-->
+    <meta charset="UTF-8">
+    <!--Tells the -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carlos Marte">
+    <meta name="description" content="Default HTML Page for SE 111">
+    
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <title>Week 5 | Tables and Forms</title>
+</head>
+<body>
+    <!--Build your Table and Form here-->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Party Form</title>
+</head>
+<body>
+
+    <h1>Party Request Form</h1>
+
+    <form action="confirm.html" method="GET">
+        <h2>Guardian Information</h2>
+        <label for="g-first">Parent/Guardian First Name</label><br>
+        <input type="text" name="gfirst" id="g-first" required maxlength="20" placeholder="First Name"><br><br>
+
+        <label for="g-last">Parent/Guardian Last Name</label><br>
+        <input type="text" name="glast" id="g-last" required maxlength="20" placeholder="Last Name"><br><br>
+
+        <h2>Child Info</h2>
+        <label for="c-first">Child's First Name</label><br>
+        <input type="text" name="cfirst" id="c-first" required placeholder="Child's FirstName"><br><br>
+
+        <label for="age">Child's Age</label><br>
+        <input type="number" name="age" id="age" required value="3"><br><br>
+
+        <h2>Event Details</h2>
+        <label for="date">Date</label><br>
+        <input type="date" name="date" id="date" required><br><br>
+
+        <label for="time">Start Time</label><br>
+        <input type="time" name="time" id="time" required><br><br>
+
+        <label for="guests">Number of Guests</label><br>
+        <input type="number" name="guests" id="guests" value="5"><br><br>
+
+        <label>Size</label><br>
+        <input type="radio" name="size" value="sm"> Small<br>
+        <input type="radio" name="size" value="md"> Medium<br>
+        <input type="radio" name="size" value="lg"> Large<br><br>
+
+        <h2>Drinks</h2>
+        <input type="checkbox" name="drink1" id="drink1" value="coke" required checked>
+        <label for="drink1">Coke</label><br>
+
+        <input type="checkbox" name="drink2" id="drink2" value="sprite" required>
+        <label for="drink2">Sprite</label><br>
+
+        <input type="checkbox" name="drink3" id="drink3" value="fruit punch" required>
+        <label for="drink3">Fruit Punch</label><br>
+
+        <input type="checkbox" name="drink4" id="drink4" value="lemonade" required>
+        <label for="drink4">Lemonade</label><br>
+
+        <input type="checkbox" name="drink5" id="drink5" value="iced tea" required>
+        <label for="drink5">Iced Tea</label><br><br>
+
+        <h2>Cake</h2>
+        <label for="cake">Choose a Cake:</label><br>
+        <select name="cake" id="cake">
+            <option>Chocolate</option>
+            <option selected>Vanilla</option>
+            <option>I'll bring my own</option>
+        </select><br><br>
+
+        <h2>Color Scheme</h2>
+        <input type="color" name="colors"><br><br>
+
+        <h2>Additional Comments</h2>
+        <textarea name="comments" placeholder="Please add any additional comments here"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
+
+    
+</body>
+</html>
